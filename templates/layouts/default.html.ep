@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html ng-app="phonecatApp">
+    <head>
+        <title><%= title %></title>
+	<link href='/static/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	<script src='/static/js/AngularJs-1.3.10/angular.min.js'></script>
+	<script src='/static/js/controller.js'></script>
+    </head>
+    <body ng-controller="PhoneListCtrl">
+        <%= content %>
+    </body>
+</html>
