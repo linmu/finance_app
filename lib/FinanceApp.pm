@@ -13,6 +13,7 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('example#welcome');
+  $r->get('/phones/phones')->to('phones#phoneslist');
 }
 
 1;
